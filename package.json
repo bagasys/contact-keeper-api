@@ -1,0 +1,38 @@
+{
+  "name": "contact-keeper-api",
+  "version": "1.0.0",
+  "description": "Contact Manager App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagasys/contact-keeper-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "api",
+    "mern"
+  ],
+  "author": "Bagas Yanuar Sudrajad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bagasys/contact-keeper-api/issues"
+  },
+  "homepage": "https://github.com/bagasys/contact-keeper-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
