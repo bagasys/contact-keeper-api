@@ -50,10 +50,10 @@ router.post('/', [
             jwt.sign(payload, config.get("JWT_SECRET"), {
                 expiresIn: 3600
             }, (err, token) => {
-                if(err) {
+                if (err) {
                     throw err;
                 }
-                res.json({token});
+                res.json({"X-Auth-Token": token});
             });
 
         } catch (err) {
